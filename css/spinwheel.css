@@ -1,0 +1,15 @@
+.spinwheel__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spinwheel__container img {
+    height: 300px;
+    width: 300px;
+}
+
+.rotate {
+    transform: rotate(30deg);
+    transition: all ease-in-out 3sec;
+}
